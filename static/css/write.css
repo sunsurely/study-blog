@@ -1,0 +1,87 @@
+#writeform{
+  margin:70px auto;
+  width:800px;
+  
+}
+
+.dropdown-menu{
+  overflow-y:auto;
+  height:500px;
+}
+.title{
+  width:500px;
+  border:none;
+  border-bottom:1px solid grey;
+}
+.title:focus{
+  outline:none;
+}
+#catebtn{
+  width:200px;
+}
+
+#textbody{
+ width:1000px;
+ margin:30px auto;
+}
+#textbody textarea{
+  width:1000px;
+  height:700px;
+  resize:virtical;
+  white-space:wrap;
+  font-size:16px;
+  border:none;
+  border-top:1px solid grey;
+}
+#textbody>textarea:focus {
+  outline: none;
+  
+}
+#enter{
+  width:70px;
+  position:fixed;
+  left:72%;
+  top:14.5%;
+  background-color:#ffffff
+}
+#comeback{
+  background-color:#ffffff;
+  border:1px solid grey;
+  margin-left:2px;
+}
+
+.contents{
+  width:800px;
+  margin:100px auto;
+}
+
+.contents h2{
+  width:500px;
+  margin:30px auto;
+  text-align:center;
+}
+
+#textcontent{
+
+    white-space: pre-wrap;
+   
+  
+}
+#pass{
+  width:200px;
+  position:fixed;
+  top:14.5%;
+  left:67.7%
+ 
+}
+#password{
+  width:80px;
+   text-align:center;
+}
+
+#content{
+  width:800px;
+  height:auto;
+  margin:100px auto;
+}
+

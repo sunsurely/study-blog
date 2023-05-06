@@ -1,0 +1,44 @@
+
+#guest{
+  width:500px;
+  margin:100px auto; 
+}
+#guest h2{
+  width:200px;
+  text-align:center;
+  margin:0px auto;
+}
+#guest hr{
+  width:500px;
+}
+#guest textarea{
+  width: 500px;
+  height: 100px;
+  margin-top: 100px;
+  padding: 10px;
+  overflow: hidden;
+}
+#enterguest{
+  width:55px;
+}
+
+#entermessege{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  margin-top:100px;
+  border:none;
+  border-bottom:1px solid grey;
+  padding:10px;
+  
+}
+#messegedate{
+  margin:0;
+}
+#guesttext{
+  width:450px;  
+}
+
+#comback{
+  width:55px;
+}
