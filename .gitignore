@@ -6,3 +6,5 @@ env/
 venv/
 deploy/
 .ebextensions/
+# Ignore .env file containing MongoDB URI
+.env
