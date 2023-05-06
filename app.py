@@ -144,5 +144,4 @@ def myguest_get():
 
 
 if __name__ == '__main__':
-   app.run(1)
-asdfasdf
+   app.run()
