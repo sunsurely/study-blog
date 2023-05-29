@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, jsonify
-app = Flask(__name__)
+application=app = Flask(__name__)
 
 from pymongo import MongoClient
-client = MongoClient()
+client = MongoClient('')
 db = client.dbsparta
 
 
@@ -142,6 +142,5 @@ def myguest_get():
     rows = list(db.guests.find({}, {"_id": False}))
     return jsonify({"result": rows})
 
-
 if __name__ == '__main__':
-   app.run()
+   app.run('0.0.0.0', port=5000, debug=True)
